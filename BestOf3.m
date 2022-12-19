@@ -3,7 +3,7 @@ function [OUT_VAL,q_xSensor1Active,q_xSensor2Active,q_xSensor3Active] =...
     
     
     nrSensFunc = 0;
-    rHaedaskynjariTemp = [0 0 0];
+    %rHaedaskynjariTemp = [0 0 0];
     
     if ~SENSOR_A_ERROR
 	    nrSensFunc = nrSensFunc + 1;
